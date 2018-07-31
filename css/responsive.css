@@ -1,0 +1,229 @@
+@media screen and (min-width: 1400px){
+	.help-img {
+		background: url(../images/bg-sec1400.jpg) no-repeat left bottom;
+		background-size: contain;
+		height: 447px;
+	}
+	.footer-img {
+		background: url(../images/bg-footer1400.png) no-repeat left bottom;
+		background-size: contain;
+		height: 447px;
+	}
+	.copyright{margin-top: 1%;}
+}
+@media screen and (min-width: 1200px){
+	#sub-gallery .img-row h4 {
+		top: 70%;
+	}
+}
+
+@media screen and (min-width: 1230px) and (max-width: 1399px){
+	.footer-img {
+		background: url(../images/bg-footer.png) no-repeat left bottom;
+		background-size: contain;
+		height: 500px;
+	}
+	.help-img {
+		background: url(../images/bg-sec.jpg) no-repeat left bottom;
+		background-size: contain;
+		height: 500px;
+	}
+	.copyright{margin-top: 10%;}
+}
+@media screen and (max-width: 1200px){
+	.no-gutter img {
+	    margin-bottom: -2px;
+	}
+}
+/*@media screen and (min-width: 768px){
+	#sub-glance .nav-tabs{padding: 0 12%;}
+
+}*/
+@media screen and (min-width: 768px) and (max-width: 1229px) {
+	.footer-img {
+		background: url(../images/bg-footer768.jpg) no-repeat left bottom;
+		background-size: contain;
+		height: 500px;
+	}
+	.help-img {
+		background: url(../images/bg-sec768.jpg) no-repeat left bottom;
+		background-size: contain;
+		height: 500px;
+	}
+	.footer-content p { font-size: 20px; }
+	.copyright{margin-top: 12%;}
+	.author .logo { width: 180px; }
+}
+
+@media screen and (max-width: 992px) {
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form { background: #fff; border-color: #e7e7e7; }
+	.navbar-default .navbar-nav>li>a:hover { border-radius: 0px; }
+	.margin30 { margin: 25px 0; }
+	#about .content-about { padding: 0 10px; text-align: center; }
+	.footer-content p { font-size: 20px; }
+	footer { padding-bottom: 30px; }
+	.author .logo { width: 180px; }
+	.footer-content p { font-size: 20px; }
+	.social li {
+		color: #a8a8a8;
+		font-size: 13px;
+		font-weight: bold;
+		line-height: 40px;
+		padding: 0px 2px;
+	}
+	.choose {
+    	width: 100%;
+	}
+	.personal-form .form-group{padding:0 2px;}
+	.nav-tabs>li>a{
+		padding: 1em 2em;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	/*.nav>li>a { padding: 10px 7px !important; }*/
+	.btn-ticket { padding: 10px 12px !important; }
+	.glance-top a{float:right;}
+	.fixtop .navbar-nav>li>a {padding: 10px 5px;}
+}
+@media only screen and (max-width: 767px){
+	
+	.footer-info, .author { text-align: center !important; margin: 30px; }
+	.nav-tabs>li>a { margin: 0 auto; }
+	section #tabs .nav-tabs li { width: 100%; }
+	.footer-img {
+		background: url(../images/bg-footer480.jpg) no-repeat left center;
+		background-size: cover;
+		height: 300px;
+	}
+	.fixtop {
+	    height: 60px;
+	    padding-top: 4px;
+	}
+	.help-img {
+		background: url(../images/bg-sec480.jpg) no-repeat left center;
+		background-size: cover;
+		height: 300px;
+	}
+	.nav-tabs>li>a {
+	    padding: 1em 1em;
+	    text-align: center;
+	}
+	.text-big { font-size: 40px; }
+	.text-large { font-size: 30px; }
+	.text-medium { font-size: 25px; }
+	.text-justify{text-align: center; padding: 0 10px;}		
+	.container>.navbar-header { margin: 0; }
+	.help-info {text-align: center !important;}
+	#help .title-section h2 {text-align: center !important; }
+	.choose input {width: 15% !important;}
+	footer {
+	    padding-bottom: 60px;
+	}
+	.back-to-top {
+    border-radius: 0;
+    	bottom: 50px; 
+ 	}
+ 	.img-row{text-align: center;}
+}
+@media only screen and (max-width: 677px){
+	.glance-top .pull-right{float: left;}
+	.top_bar .fl-right{ display: block;float: none;text-align: center;}
+	.social-footer{display:block;}
+	.SP_hidden{display:none !important;}
+	.text-center{text-align: center; float: none;}
+}
+@media screen and (min-width: 678px) and (max-width: 767px){
+	#speakers .item {width: 50%;}
+	.social-footer{display:none;}
+}
+
+@media screen and (min-width: 430px) and (max-width: 523px){
+	#sub-gallery .img-row h4{
+		font-size: 16px;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 429px){
+	#sub-gallery .img-row h4{
+		top: 60%;
+		padding: 0 1.5em;
+	}
+	.visiter-table thead>tr>th, .visiter-table .cell{font-size: 17px;padding: 0 !important;}
+	.visiter-table tr td p{font-size: 15px !important;padding: 2px !important;}
+
+}
+@media screen and (max-width: 480px){ 
+	body { font-size: 19px; }
+	.choose input {width: 19% !important;}
+	.choose {
+	    margin: 15px 0;
+	    line-height: 22px;
+	    font-size: 17px;
+	}
+
+	#help .title-section h2 { text-align: center; }
+	.author { margin-top: 20px !important; }
+	.fixtop { height: 60px; padding-top: 5px; }
+	.author .logo { width: 140px; }
+	.text-format { padding: 0 10px !important; text-align: center; }
+	footer { text-align: center !important; }
+	.glance-body table tr td {padding: 12px;}
+	.btn-format {margin: 1em 0;}
+	.title-section h2{font-size: 30px;}
+	.footer-img {
+		background: url(../images/bg-footer480.jpg) no-repeat left center;
+		background-size: cover;
+		height: 300px;
+	}
+	.help-img {
+		background: url(../images/bg-sec480.jpg) no-repeat left center;
+		background-size: cover;
+		height: 300px;
+	}
+	.glance-body .event-time{font-size: 20px;}
+	.pull-right{float:left;}
+	#count-effect p {font-size: 18px;}
+	.visiter-table tr td p{font-size: 17px;}
+	.event-time, .visiter-time{font-size: 20px;}
+
+}
+@media only screen and (min-width: 611px){
+	.CP-hidden{
+		display: none;
+	}
+}
+@media only screen and (max-width: 610px){
+	.fl-left, .fl-right{
+		display: block !important;
+		float:  none;
+		margin:  10px auto;
+		text-align: center !important;
+	}
+	.SP-hidden{
+		display: none;
+	}
+}
+@media screen and (min-width: 780px){
+	.CP-price-hidden{display: none;}
+	
+}
+@media screen and (max-width: 779px){
+	.SP-price-hidden{display: none;}
+}
+
+@media only screen and (max-width: 375px) {
+	.social li { font-size: 12px; padding: 0px 2px; }
+	section .nav-tabs>li>a{padding: 8px; text-align: center;}
+	#count-effect p{font-size: 15px;}
+	.glance-body .event-name{font-size: 18px;}
+	.glance-top .pull-right{float: left !important;}
+	.event-time, .visiter-time {
+    font-size: 18px;}
+	.visiter-table td label {
+	    position: absolute;
+	    top: 21%;
+	    right: 5px;
+	}
+	.visiter-table td{vertical-align: middle !important; font-size: 16px;}
+	.visiter-table p{padding-top: 0;}
+	.visiter-table .event-room .fl-right{}
+}
